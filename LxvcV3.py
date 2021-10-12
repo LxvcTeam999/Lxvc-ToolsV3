@@ -7,7 +7,13 @@ import socket
 import threading
 
 os.system("clear")
-os.system("figlet LxvcTeam")
+print("""\x1b[1;92m
+ _                    _____
+| |   __  ____   ____|_   _|__  __ _ _ __ ___
+| |   \ \/ /\ \ / / __|| |/ _ \/ _` | '_ ` _ \
+| |___ >  <  \ V / (__ | |  __/ (_| | | | | | |
+|_____/_/\_\  \_/ \___||_|\___|\__,_|_| |_| |_|
+ """)
 print("↪ TOOLS INFORMATION ↩")
 print("↪ CREATOR : LXVC TEAM")
 print("↪ VERSION : V3↩")
